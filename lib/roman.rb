@@ -37,7 +37,19 @@ class Roman
 		  return "XV"
 		 
 		 when 16
-		  return "XVI"		  		  		  
+		  return "XVI"		
+		 
+		 when 17
+		  return "XVII"
+		 
+		 when 18
+		  return "XVIII"
+		 
+		 when 19
+		  return "XIX"				    		  		  
+		 
+		 when 20
+		  return "XX"				    		  		  		  
 		end
 	end
 end
