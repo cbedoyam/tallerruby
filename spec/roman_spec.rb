@@ -23,9 +23,7 @@ it 'should convert 1 to I' do
    it 'should convert 6 to VI' do
     @roman.convert(6).must_equal "VI"
   end
-     it 'should convert 7 to VII' do
-    roman = Roman.new #arrange
-	result = roman.convert 7 #act
-	result.must_equal 'VII' #assert
+  it 'should convert 7 to VII' do
+    @roman.convert(7).must_equal "VI"
   end
 end
