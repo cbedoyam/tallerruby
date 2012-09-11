@@ -21,5 +21,10 @@ describe Roman do
 	result = roman.convert 3 #act
 	result.must_equal 'III' #assert
   end
+    it 'should convert 4 to IV' do
+    roman = Roman.new #arrange
+	result = roman.convert 4 #act
+	result.must_equal 'IV' #assert
+  end
 
 end
