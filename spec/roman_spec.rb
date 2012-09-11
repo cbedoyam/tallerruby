@@ -26,5 +26,9 @@ describe Roman do
 	result = roman.convert 4 #act
 	result.must_equal 'IV' #assert
   end
-
+   it 'should convert 6 to VI' do
+    roman = Roman.new #arrange
+	result = roman.convert 6 #act
+	result.must_equal 'VI' #assert
+  end
 end
