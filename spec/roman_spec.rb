@@ -55,5 +55,14 @@ it 'should convert 1 to I' do
   end
   it 'should convert 17 to XVII' do
     @roman.convert(17).must_equal "XVII"
+  end
+    it 'should convert 18 to XVIII' do
+    @roman.convert(18).must_equal "XVIII"
+  end
+  it 'should convert 19 to XIX' do
+    @roman.convert(19).must_equal "XIX"
+  end
+   it 'should convert 20 to XX' do
+    @roman.convert(20).must_equal "XX"
   end  
 end
