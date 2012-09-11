@@ -35,4 +35,7 @@ it 'should convert 1 to I' do
   it 'should convert 10 to X' do
     @roman.convert(10).must_equal "X"
   end
+   it 'should convert 11 to XI' do
+    @roman.convert(11).must_equal "XI"
+  end
 end
