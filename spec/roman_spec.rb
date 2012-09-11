@@ -24,6 +24,15 @@ it 'should convert 1 to I' do
     @roman.convert(6).must_equal "VI"
   end
   it 'should convert 7 to VII' do
-    @roman.convert(7).must_equal "VI"
+    @roman.convert(7).must_equal "VII"
+  end
+  it 'should convert 8 to VIII' do
+    @roman.convert(8).must_equal "VIII"
+  end
+  it 'should convert 9 to IX' do
+    @roman.convert(9).must_equal "IX"
+  end
+  it 'should convert 10 to X' do
+    @roman.convert(10).must_equal "X"
   end
 end
