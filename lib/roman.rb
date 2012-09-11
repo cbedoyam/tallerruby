@@ -20,12 +20,24 @@ class Roman
 		return num				
 		when 10
 		  return "X"
-		  when 11
+		 
+		 when 11
 		  return "XI"
-		  when 12
+		 
+		 when 12
 		  return "XII"
-		  when 13
+		 
+		 when 13
 		  return "XIII"
+		 
+		 when 14
+		  return "XIV"
+		 
+		 when 15
+		  return "XV"
+		 
+		 when 16
+		  return "XVI"		  		  		  
 		end
 	end
 end
